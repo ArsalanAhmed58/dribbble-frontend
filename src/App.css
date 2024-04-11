@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400;600&amp;family=IBM+Plex+Mono:wght@500&amp;display=block");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.heading {
+  font-family: "none";
+  font-size: 32px !important;
+  font-weight: 700 !important;
+  line-height: 38px !important;
+}
+
+.loginLabel {
+  /* margin: 14px 0 4px !important; */
+  color: #0d0c22 !important;
+  font-size: 15px !important;
+  font: bold 20px "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  /* font-weight: bold; */
+}
+
+.tc {
+  position: relative;
+  margin: 0;
+  color: #0d0c22;
+  font: normal 14px / 18px "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.reCaptcha {
+  max-width: 300px;
+  color: #9e9ea7;
+  font: normal 11px / 16px "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.customInput {
+  border-radius: 12px;
+  position: relative;
+  border: 1px solid;
+  font-size: 14px;
+  width: 100%;
+  padding: 18px 20px;
+  height: 56px;
+  box-sizing: border-box;
+  line-height: 28px;
+  font-family: "Mona Sans" "Helvetica Neue" "Helvetica" "Arial" "sans-serif";
+
+}
+
+.customInput:focus {
+  border-color: rgba(0, 0, 0, 0.1) !important;
+  box-shadow: 0 0 0 4px rgba(234, 100, 217, 0.1) !important;
+  border-color: rgba(234, 100, 217, 0.4) !important;
+}
+
+.customInput:hover {
+  border-color: rgba(0, 0, 0, 0.1);
+  background-color: " #fff";
+  box-shadow: 0 0 0 4px rgba(234, 100, 217, 0.1);
+}
+
+.profile-hed.MuiTypography-root {
+  position: relative;
+  z-index: 2;
+  font-weight: bold;
+  line-height: 1.25em;
+}
+
+.MuiBox-root.uploadImg {
+  transition: border 0.2s ease;
+  border: 3px dashed #dbdbde;
+  border-radius: 50%;
+}
+
+.MuiBox-root.uploadImg:hover {
+  border-color: #ea4c89;
+}
+.delete-b.MuiIconButton-sizeMedium {
+  display: none;
+  animation: op 0.2s linear alternate;
+}
+@keyframes op {
+  0%{
+    opacity:0
+  }
+  100%{
+    opacity: 1;
+  }
+}
+.MuiBox-root.profile:hover .delete-b.MuiIconButton-sizeMedium {
+  display: inline-flex;
+
+}
+
+
+.why-head.MuiTypography-root{
+  margin: 0;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 3rem;
+  line-height: 1.167;
+  letter-spacing: 0em;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+.custom-border.MuiBox-root:has( input[type="radio"]:checked) 
+  {
+    border:2px solid;
+    border-color: #ea4b8a;
+}
+.custom-border.MuiBox-root .descrip{
+  display: none;
+}
+.custom-border.MuiBox-root:has( input[type="radio"]:checked)  .descrip{
+  display: block;
+}
+.menu a{
+  color: #79797e;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 700;
+}
+nav a{
+  color: #79797e;
+  text-decoration: none;
+  font-size: 19px;
+  font-weight: semi-bold;
+  display: block;
+  width: 98%;
+  text-align: center;
+  /* background: #000; */
+}
+
+.css-pw4x8jMuiInputBase-input{
+  /* padding:10; */
+  background:"#f2f5f4",
+}
+.MuiTypography-root .home-a{
+  text-decoration: none;
+  color: #e85c96;
+}
+.MuiTypography-root .footer-a{
+  color: #000004;
+}
