@@ -92,7 +92,7 @@ const WhyDribbble = ({ }) => {
             <CircularProgress color="inherit" />
           </Backdrop>
           <Grid item xs={12} flexDirection={"column"} display="flex" justifyContent="center" alignItems="center">
-            <Typography variant='h3' className='why-head' component={"h3"}>
+            <Typography pt={5} variant='h3' className='why-head' component={"h3"}>
               What brings you to Dribbble?
             </Typography>
             <Typography variant='p' color={"#7c7a83"} my={2} component={"p"}>Select the options that best describe you. Don't worry, you can explore other options later.</Typography>
@@ -167,7 +167,7 @@ const WhyDribbble = ({ }) => {
               </Grid>
             </Grid>
           </Container>
-          <Grid item xs={12} display={"flex"} flexDirection={"column"} alignItems={"center"}>
+          <Grid item pb={3} xs={12} display={"flex"} flexDirection={"column"} alignItems={"center"}>
             <Button type="submit" sx={{
               bgcolor: selectedValue ? "#ea4b8a" : "#f8b8d0", color: "white", paddingX: 10, textTransform: "capitalize", "&:disabled": { color: "white" }, "&:hover": {
                 bgcolor: "#ea4b8a"

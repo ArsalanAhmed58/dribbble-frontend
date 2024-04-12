@@ -248,7 +248,7 @@ const Footer = () => {
                     </Grid>
                 </Grid>
                 <Divider component="" />
-                <Grid container flexDirection={"row"} justifyContent={"space-between"}>
+                <Grid container flexDirection={"row"} mb={3} justifyContent={"space-between"}>
                     <Grid item fontSize={{xs:14, sm:17}} mt={{xs:2, sm:4}} sx={{textAlign:"center", color: "#8d8c93" }}>
                         &copy; 2023 dribbble. All rights reserved.
                     </Grid>
