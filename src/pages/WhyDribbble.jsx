@@ -92,14 +92,14 @@ const WhyDribbble = ({ }) => {
             <CircularProgress color="inherit" />
           </Backdrop>
           <Grid item xs={12} flexDirection={"column"} display="flex" justifyContent="center" alignItems="center">
-            <Typography pt={5} variant='h3' className='why-head' component={"h3"}>
+            <Typography pt={5} px={{xs:2, sm:0}} variant='h3' className='why-head' component={"h3"}>
               What brings you to Dribbble?
             </Typography>
-            <Typography variant='p' color={"#7c7a83"} my={2} component={"p"}>Select the options that best describe you. Don't worry, you can explore other options later.</Typography>
+            <Typography variant='p' px={{xs:2, sm:0}}  color={"#7c7a83"} my={2} component={"p"}>Select the options that best describe you. Don't worry, you can explore other options later.</Typography>
           </Grid>
           <Container maxWidth="lg" sx={{ display: "flex", background: "", justifyContent: "center", marginY: { xs: 5, md: 10 } }} >
             <Grid container sx={{ background: "" }} >
-              <Grid item xs={12} sm={4} bgcolor={""} px={2}>
+              <Grid item my={{xs:1.5,sm:0}} xs={12} sm={4} bgcolor={""} px={2}>
                 <label htmlFor="a">
                   <Box textAlign="center" onClick={(e) => { setSelectedValue("a"); }} sx={{ border: "1.5px solid #ececec" }} bgcolor={""} className="custom-border rounded-3">
                     <Lottie sx={{ margin: "-100px" }} className={"img-fluid"} animationData={Designer} />
@@ -123,7 +123,7 @@ const WhyDribbble = ({ }) => {
                   </Box>
                 </label>
               </Grid>
-              <Grid item xs={12} sm={4} bgcolor={""} px={2}>
+              <Grid item my={{xs:1.5,sm:0}} xs={12} sm={4} bgcolor={""} px={2}>
                 <label htmlFor="b">
                   <Box ref={currRef} textAlign="center" onClick={(e) => { setSelectedValue("b") }} bgcolor={""} sx={{ border: "1.5px solid #ececec" }} className="custom-border rounded-3">
                     <Lottie className={"img-fluid"} animationData={Hire} />
@@ -144,7 +144,7 @@ const WhyDribbble = ({ }) => {
                   </Box>
                 </label>
               </Grid>
-              <Grid item xs={12} sm={4} bgcolor={""} px={2}>
+              <Grid item my={{xs:1.5,sm:0}} xs={12} sm={4} bgcolor={""} px={2}>
                 <label htmlFor="c">
 
                   <Box textAlign="center" onClick={(e) => { setSelectedValue("c"); }} sx={{ border: "1.5px solid #ececec" }} bgcolor={""} className="custom-border rounded-3">
